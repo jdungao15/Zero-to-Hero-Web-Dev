@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    font-family: 'Bungee', cursive;
+}
+
+table {
+    margin: auto;
+
+    /*    width: 50%*/
+   
+}
+
+
+
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.first-row {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.second-row {
+
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.last-box {
+    border-bottom: 1px solid black;
+}
+
+.third-row {
+    border-right: 1px solid black;
+}

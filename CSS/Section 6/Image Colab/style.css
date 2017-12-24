@@ -1,0 +1,22 @@
+body {
+    width: 100%
+}
+
+h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 35px;
+    border-bottom: 2px solid black;
+    width: 13%;
+    padding-bottom: 3px;
+}
+
+img {
+    width: 30%;
+    height: 100%;
+    margin: 1.26%;
+}
+
+.row {
+    padding-left: 40px;
+    position: relative;
+}
