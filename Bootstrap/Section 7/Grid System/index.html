@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <!--  Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!--  Bootstrap 4   -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!--  Font Awesome CDN          -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--  Google fonts   -->
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Nav Bar   -->
+
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fa fa-picture-o" aria-hidden="true"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarItems" aria-controls="navBarItems" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navBarItems">
+                <ul class="navbar-nav mr-auto">
+                    <!-- Float to the left-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <!-- Float to the right-->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="icon fa fa-user-plus fa-" aria-hidden="true"></i>Register</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"><i class="icon fa fa-sign-in" aria-hidden="true"></i>Sign In</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- End of navbar toggler        -->
+        </div>
+
+
+    </nav>
+    <!--End of NavBar-->
+
+
+
+    <!-- Heading    -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-3 header text-center">
+                <i class="fa 2x fa fa-camera-retro" aria-hidden="true"></i> Bunch of Images
+                <hr class="my-3">
+            </h1>
+            <p class="lead text-center">
+                Just for the Taste of Gallery.
+            </p>
+        </div>
+        <!-- First Row Image -->
+        <div class="row">
+            <div class="col-md">
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="https://images.unsplash.com/photo-1501421018470-faf26f6b1bef?auto=format&fit=crop&w=1950&q=80" alt="">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="https://images.unsplash.com/photo-1490535004195-099bc723fa1f?auto=format&fit=crop&w=1480&q=80" alt="">
+                </div>
+
+            </div>
+            <div class="col-md">
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="https://images.unsplash.com/photo-1466951477635-f802dbe34af9?auto=format&fit=crop&w=1350&q=80" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- First Row Image -->
+
+        <!--Second Row Image -->
+        <div class="row">
+            <div class="col-md">
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="https://images.unsplash.com/photo-1494697536454-6f39e2cc972d?auto=format&fit=crop&w=1351&q=80" alt="">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="https://images.unsplash.com/photo-1449130015084-2d48a345ae62?auto=format&fit=crop&w=1353&q=80" alt="">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?auto=format&fit=crop&w=1350&q=80" alt="">
+                </div>
+            </div>
+        </div>
+        <!--Second Row Image -->
+
+        <!--Third Row Image -->
+        <div class="row">
+            <div class="col-md">
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="https://images.unsplash.com/photo-1506560411-58ae1f86da62?auto=format&fit=crop&w=1350&q=80" alt="">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="https://images.unsplash.com/photo-1496437792604-55ca7c5c3f6f?auto=format&fit=crop&w=1352&q=80" alt="">
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1350&q=80" alt="">
+                </div>
+            </div>
+        </div>
+        <!--Third Row Image -->
+    </div>
+
+
+
+
+
+    <!--  Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!-- End of Script    -->
+</body>
+
+</html>
